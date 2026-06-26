@@ -7,5 +7,12 @@ pipeline{
             }
         }
     }
-
+post{
+    alwasys {
+        echo 'Pipeline is Success'
+    }
+    success {
+        echo 'okay'
+    }
+}
 }
