@@ -2,13 +2,15 @@ pipeline{
     agent none
     options {
         timeout (time: 10, unit: 'SECONDS')
+    environment {
+        course: 'Devops'
+    }    
     }
     //Build
     stages{
         stage('Build'){
             steps{
                 echo 'Building'
-                sleep 10
             }
         }
     }
