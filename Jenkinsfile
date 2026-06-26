@@ -14,5 +14,8 @@ post{
     success {
         echo 'okay'
     }
+    failure {
+        echo 'failure'
+    }
 }
 }
