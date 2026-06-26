@@ -8,7 +8,7 @@ pipeline{
         }
     }
 post{
-    alwasys {
+    always {
         echo 'Pipeline is Success'
     }
     success {
