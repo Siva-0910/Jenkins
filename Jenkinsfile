@@ -3,7 +3,7 @@ pipeline{
     options {
         timeout (time: 10, unit: 'SECONDS')
     environment {
-        course: 'Devops'
+        course= "Devops"
     }    
     }
     //Build
