@@ -11,7 +11,7 @@ post{
     always {
         echo 'Pipeline is Success'
     }
-    success {
+    successs {
         echo 'okay'
     }
     failure {
